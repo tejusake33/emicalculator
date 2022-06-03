@@ -54,4 +54,17 @@ input{
   .results{
       margin-top: 10px;
   }
+  .card{
+    margin: 10px;
+    padding-left: 10px;
+    width: 400px;
+  }
+  .Graph{
+    position: absolute;
+    left: 35px;
+    top: 1150px;
+  }
+  .breakup{
+    padding-left: 50px;
+  }
 }
