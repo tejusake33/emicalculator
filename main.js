@@ -27,7 +27,7 @@ loan_period_slider.addEventListener("input", (self) => {
   displayDetails();
 });
 
-// calculate total Interest payable
+//2. calculate total Interest payable
 function calculateLoanDetails(p, r, emi) {
   /*
     p: principal
@@ -59,7 +59,7 @@ function calculateLoanDetails(p, r, emi) {
   return totalInterest;
 }
 
-// calculate details
+//1. calculate details
 function displayDetails() {
   let r = parseFloat(R) / 1200;
   let n = parseFloat(N) * 12;
@@ -70,7 +70,7 @@ function displayDetails() {
 
   let payabaleInterest = calculateLoanDetails(P, r, emi);
 
-
+//3.
   document.querySelector("#cp").innerText =
     parseFloat(P);
 
